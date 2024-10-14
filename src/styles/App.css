@@ -2,3 +2,8 @@
   margin: 0;
   padding: 2rem;
 }
+
+img {
+  width: 300px;
+  height: auto;
+}

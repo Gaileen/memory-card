@@ -7,3 +7,5 @@ This is the Memory Card project from The Odin Project's React course. The purpos
 Images are fetched from the PokeAPI.
 
 To play, there are 12 unique cards. You must click as many cards as possible without repeating a card previously clicked on. If you do repeat-click a card, the game resets itself and you may try again.
+
+Play here: https://pkmnmemorycard.netlify.app/

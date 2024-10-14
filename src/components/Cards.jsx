@@ -24,8 +24,8 @@ export default function Cards() {
         <div className="cards">
             {images.map((image) => (
                 <div className="pkmnCard" key={image.id}>
-                    <img src={image.img}></img>
                     <p>{image.name}</p>
+                    <img src={image.img}></img>
                 </div>
             ))}
         </div>

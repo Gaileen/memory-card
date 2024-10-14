@@ -22,7 +22,8 @@ async function processPkmn(name) {
     try {
         const data = await fetchPkmn(name);
         return {
-            name: data.name,
+            name: data.name.charAt(0).toUpperCase()
+                + data.name.slice(1),
             img: data.sprites.front_default,
             id: crypto.randomUUID(),
         };

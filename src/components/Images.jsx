@@ -25,6 +25,7 @@ async function processPkmn(name) {
             name: data.name.charAt(0).toUpperCase()
                 + data.name.slice(1),
             img: data.sprites.front_default,
+            clicked: false,
             id: crypto.randomUUID(),
         };
     } catch (error) {

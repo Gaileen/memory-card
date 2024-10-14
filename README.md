@@ -1,8 +1,8 @@
-# React + Vite
+# Memory Card Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the Memory Card project from The Odin Project's React course. The purpose of this project was to practice using:
+- useState() and
+- useEffect().
+Images are fetched from the PokeAPI.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To play, there are 12 unique cards. You must click as many cards as possible without repeating a card previously clicked on. If you do repeat-click a card, the game resets itself and you may try again.
